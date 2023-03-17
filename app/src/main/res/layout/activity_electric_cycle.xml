@@ -1,0 +1,1499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cycle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/black"
+                                android:text="Citycycle"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="110dp"
+                                android:padding="10dp"
+                                android:layout_gravity="start"
+                                android:src="@drawable/citycycle"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/text_color"
+                                android:text="CityBasic"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:textColor="@color/text_color"
+                                android:text="Lightweght &amp; Fast\n25 KMs of Range\nFront Disc Brakes\nRoad Biking DNA\n3 Cruising Modes\nQuick Charge"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/text_color"
+                                android:text="ProCity"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:textColor="@color/text_color"
+                                android:text="Multispeed Electric\n45 KMs of Range\nDual Disc Brakes\nIntegrated Lights\nFront Suspension\n+ Everything in CityBasic"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="PRICE"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="HOURLY"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="DAILY"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="WEEKLY"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="MONTHLY"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="CityBasic"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹19"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹199"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹1299"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹2999"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="ProCity"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹29"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹299"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹1799"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹3999"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="bottom|center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/city_basic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Book CityBasic"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:layout_margin="5dp"/>
+
+                        <Button
+                            android:id="@+id/pro_city"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Book ProCity"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:layout_margin="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cycle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/black"
+                                android:text="GymBoi"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="110dp"
+                                android:padding="10dp"
+                                android:layout_gravity="start"
+                                android:src="@drawable/gymboi"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/text_color"
+                                android:text="FitClassic"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:textColor="@color/text_color"
+                                android:text="Classic Pedalling Mode\nSwitchable Electric\nUse electric only as backup when tired\nIntegrated Lights"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/text_color"
+                                android:text="FitPro"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:textColor="@color/text_color"
+                                android:text="Multi-speed Switchable Electric\nDual Disc Brakes\nFront Suspension\n+ Everything in FitClassic"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="PRICE"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="WEEKLY"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="MONTHLY"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="FitClassic"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹999"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹2499"
+                            android:layout_weight="1"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="FitPro"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹1299"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹3499"
+                            android:layout_weight="1"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="bottom|center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/fit_classic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Book FitClassic"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:layout_margin="5dp"/>
+
+                        <Button
+                            android:id="@+id/fit_pro"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Book FitPro"
+                            android:textAllCaps="false"
+                            android:layout_weight="1"
+                            android:layout_margin="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cycle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/black"
+                                android:text="Commuter"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="110dp"
+                                android:padding="10dp"
+                                android:layout_gravity="start"
+                                android:src="@drawable/commuter"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/text_color"
+                                android:text="CommutePlus"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:textColor="@color/text_color"
+                                android:text="50+ KMs for Range\nRemoval Battery\nSmart Digital Display\nFree Home Delivery\nFree Side Bag &amp; Pannier Rack
+"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/text_color"
+                                android:text="CommutePro"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:textColor="@color/text_color"
+                                android:text="100 KMs of Range\nFree RSA\nDigital Cyclometer\nMobile Holder &amp; Bag\n+Everything in CommutePlus"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="4"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="PRICE"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="1 MONTH"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="3 MONTHS"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="6 MONTHS"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="4"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="CommutePlus"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹3499/mo"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹3099/mo"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹2699/mo"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="4"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="CommutePro"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹3999/mo"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹3499/mo"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹3099/mo"
+                            android:layout_weight="1"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="bottom|center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/commute_plus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Book CommutePlus"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:layout_margin="5dp"/>
+
+                        <Button
+                            android:id="@+id/commute_pro"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Book\n CommutePro"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:layout_margin="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cycle4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/black"
+                                android:text="Cruise"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="110dp"
+                                android:padding="10dp"
+                                android:layout_gravity="start"
+                                android:src="@drawable/cruise3"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/text_color"
+                                android:text="CruisePlus"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:textColor="@color/text_color"
+                                android:text="50+ KMs for Range\nRemoval Battery\nSmart Digital Display\nFree Home Delivery for weekly and above\nFree 25L Side Bag &amp; Pannier Rack"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/text_color"
+                                android:text="CruisePro"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:textColor="@color/text_color"
+                                android:text="100 KMs of Range\nFree RSA\nDigital Cyclometer\nFree Dual 50L Bike Bags\n+Everything in CruisePlus"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="4"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="PRICE"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="DAILY"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="WEEKLY"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="13dp"
+                            android:textColor="@color/black"
+                            android:text="FORTNIGHTLY"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="4"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="CruisePlus"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹599"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹1999"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹2999"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="4"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="CruisePro"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹799"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹2499"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹3999"
+                            android:layout_weight="1"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="bottom|center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/cruise_plus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Book CruisePlus"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:layout_margin="5dp"/>
+
+                        <Button
+                            android:id="@+id/cruise_pro"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Book CruisePro"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:layout_margin="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cycle5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:layout_margin="5dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/black"
+                                android:text="WildGoose"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="110dp"
+                                android:padding="10dp"
+                                android:layout_gravity="start"
+                                android:src="@drawable/wildgoose"/>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:textSize="14dp"
+                                android:textColor="@color/black"
+                                android:text="Powerful BLDC Motor\nRear Hydraulic Brakes\nFront Electronic Disc Brakes\n45+ KMs of Range\nE-MTB DNA\nOffroad Tyres"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            android:layout_margin="5dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                android:textSize="16dp"
+                                android:textColor="@color/black"
+                                android:text="Lightcycle"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="110dp"
+                                android:padding="10dp"
+                                android:layout_gravity="start"
+                                android:src="@drawable/lightcycle"/>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start|center"
+                                android:textSize="14dp"
+                                android:textColor="@color/black"
+                                android:text="Foldable &amp; Ultra Portable\n25 KMs of Range\nDual Disc Brakes\nFuturistic Design\nCyclometer with Digital Display\nPuncture Resistant Tyres"/>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="PRICE"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="HOURLY"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="DAILY"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="WEEKLY"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:text="MONTHLY"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="WildGoose"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹49"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹399"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹1799"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹3999"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="Lightcycle"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹9"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹99"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹599"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:textColor="@color/text_color"
+                            android:text="₹1999"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="bottom|center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/wild_goose"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Book WildGoose"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:layout_margin="5dp"/>
+
+                        <Button
+                            android:id="@+id/light_cycle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Book Lightcycle"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:layout_margin="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

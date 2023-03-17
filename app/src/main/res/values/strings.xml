@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Bike Car Rent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="city">
+        <item>Select City</item>
+        <item>Ahmadnagar</item>
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Bangalore</item>
+        <item>Goa</item>
+        <item>Chennai</item>
+        <item>Delhi</item>
+        <item>Indore</item>
+        <item>Jaipur</item>
+        <item>Kolkata</item>
+        <item>Nashik</item>
+        <item>Surat</item>
+        <item>Mysore</item>
+    </string-array>
+
+    <string-array name="time">
+        <item><b><font fgcolor="#595757">Time</font> </b></item>
+        >
+        <item><b><font fgcolor="#595757">08:00 AM</font> </b></item>
+        <item><b><font fgcolor="#595757">08:30 AM</font> </b></item>
+        <item><b><font fgcolor="#595757">09:00 AM</font> </b></item>
+        <item><b><font fgcolor="#595757">09:30 AM</font> </b></item>
+        <item><b><font fgcolor="#595757">10:00 AM</font> </b></item>
+        <item><b><font fgcolor="#595757">10:30 AM</font> </b></item>
+        <item><b><font fgcolor="#595757">11:00 AM</font> </b></item>
+        <item><b><font fgcolor="#595757">11:30 AM</font> </b></item>
+        <item><b><font fgcolor="#595757">12:00 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">12:30 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">01:00 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">01:30 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">02:00 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">02:30 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">03:00 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">03:30 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">04:00 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">04:30 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">05:00 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">05:30 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">06:00 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">06:30 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">07:00 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">07:30 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">08:00 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">08:30 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">09:00 PM</font> </b></item>
+        <item><b><font fgcolor="#595757">09:30 PM</font> </b></item>
+
+    </string-array>
+
+</resources>

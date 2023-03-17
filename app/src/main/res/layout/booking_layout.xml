@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/car1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bikeName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/black"
+                        android:text="Activa 6G"/>
+
+                    <ImageView
+                        android:id="@+id/bikeImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:layout_gravity="start"
+                        android:src="@drawable/activa6g"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_weight="3">
+
+                        <TextView
+                            android:id="@+id/automatic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:gravity="center"
+                            android:layout_margin="5dp"
+                            android:layout_gravity="start"
+                            android:layout_weight="1"
+                            android:text="km Limit"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/disel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:gravity="center"
+                            android:layout_margin="5dp"
+                            android:layout_gravity="start"
+                            android:layout_weight="1"
+                            android:text="Deposit"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/seats"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:gravity="center"
+                            android:layout_margin="5dp"
+                            android:layout_gravity="start"
+                            android:layout_weight="1"
+                            android:text="Extra km"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="3">
+
+                        <TextView
+                            android:id="@+id/km_limit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="1500 km"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/deposit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="₹ 1500"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/extra_km"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="₹ 2/km"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:background="@color/yellow"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:id="@+id/rent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="₹ 4384/mo"
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:id="@+id/book_now"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="BOOK NOW"
+                            android:layout_weight="1"/>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
